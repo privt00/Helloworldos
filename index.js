@@ -139,7 +139,7 @@ function start() {
                 rl.close();
             });
         } else {
-            console.log('Invalid choice. Please enter "e" to encode or "d" to decode.');
+            console.log('Invalid choice, Please enter "e" to encode or "d" to decode.');
             rl.close();
         }
     });
